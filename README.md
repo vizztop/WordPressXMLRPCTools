@@ -2,67 +2,67 @@
 
 ---start---
 ## 目录(2021年03月23日更新)
-[等90后00后老了，如何忽悠TA们?](https://fangyuanxiaozhan.com/p/2021-03-23-9000-money/)
+[等90后00后老了，如何忽悠TA们?](https://www.vizz.top/p/2021-03-23-9000-money/)
 
-[网游厂商与玩家之间为何会产生矛盾?](https://fangyuanxiaozhan.com/p/2021-03-21-game-player/)
+[网游厂商与玩家之间为何会产生矛盾?](https://www.vizz.top/p/2021-03-21-game-player/)
 
-[完美远程办公网络配置的研究（支持无缝使用内网服务，高速魔法上网）](https://fangyuanxiaozhan.com/p/2021-03-18-work-net/)
+[完美远程办公网络配置的研究（支持无缝使用内网服务，高速魔法上网）](https://www.vizz.top/p/2021-03-18-work-net/)
 
-[荒野之息和原神让我打开新世界，顺便入手了Xbox手柄和NS Pro喷射战士手柄](https://fangyuanxiaozhan.com/p/2021-03-17-ns-xbox/)
+[荒野之息和原神让我打开新世界，顺便入手了Xbox手柄和NS Pro喷射战士手柄](https://www.vizz.top/p/2021-03-17-ns-xbox/)
 
-[Github可白嫖的Pages和Actions有什么用?](https://fangyuanxiaozhan.com/p/2021-03-15-github/)
+[Github可白嫖的Pages和Actions有什么用?](https://www.vizz.top/p/2021-03-15-github/)
 
-[《原神》手残玩家如何获得紧张刺激的游戏体验?](https://fangyuanxiaozhan.com/p/2021-03-14-yuanshen/)
+[《原神》手残玩家如何获得紧张刺激的游戏体验?](https://www.vizz.top/p/2021-03-14-yuanshen/)
 
-[《游戏摄影》原神](https://fangyuanxiaozhan.com/p/2021-03-12-yuanshen-images/)
+[《游戏摄影》原神](https://www.vizz.top/p/2021-03-12-yuanshen-images/)
 
-[《原神》如何从腾讯游戏口中抢到肉?](https://fangyuanxiaozhan.com/p/2021-03-11-yuanshen/)
+[《原神》如何从腾讯游戏口中抢到肉?](https://www.vizz.top/p/2021-03-11-yuanshen/)
 
-[「简书营销号」是非常邪门的黑色幽默，也就比百度莆田系好了那么一丢丢……](https://fangyuanxiaozhan.com/p/2021-03-07-jianshu/)
+[「简书营销号」是非常邪门的黑色幽默，也就比百度莆田系好了那么一丢丢……](https://www.vizz.top/p/2021-03-07-jianshu/)
 
-[重看经典动漫《火影忍者》的一些感受](https://fangyuanxiaozhan.com/p/2021-03-06-huoying/)
+[重看经典动漫《火影忍者》的一些感受](https://www.vizz.top/p/2021-03-06-huoying/)
 
-[计算机本科生从业金融两年的经验](https://fangyuanxiaozhan.com/p/2021-03-04-15/)
+[计算机本科生从业金融两年的经验](https://www.vizz.top/p/2021-03-04-15/)
 
-[macOS刷机后，分享一波必装软件](https://fangyuanxiaozhan.com/p/2021-02-22-mac-soft/)
+[macOS刷机后，分享一波必装软件](https://www.vizz.top/p/2021-02-22-mac-soft/)
 
-[《刺杀小说家》一个勇士屠恶龙救苍生的故事](https://fangyuanxiaozhan.com/p/2021-02-17-xiaoshuojia/)
+[《刺杀小说家》一个勇士屠恶龙救苍生的故事](https://www.vizz.top/p/2021-02-17-xiaoshuojia/)
 
-[衡水的中学为高考服务，996.icu为人民企业家服务](https://fangyuanxiaozhan.com/p/2021-01-29-20/)
+[衡水的中学为高考服务，996.icu为人民企业家服务](https://www.vizz.top/p/2021-01-29-20/)
 
-[轻薄的代价（纪念不足两岁MacBook轻薄本的陨落）](https://fangyuanxiaozhan.com/p/2021-01-28-09/)
+[轻薄的代价（纪念不足两岁MacBook轻薄本的陨落）](https://www.vizz.top/p/2021-01-28-09/)
 
-[PP鸭最佳替代品！《图压》批量压缩图片而不损失画质，支持JPG,PNG,GIF,SVG](https://fangyuanxiaozhan.com/p/2021-01-26-13/)
+[PP鸭最佳替代品！《图压》批量压缩图片而不损失画质，支持JPG,PNG,GIF,SVG](https://www.vizz.top/p/2021-01-26-13/)
 
-[解决Chrome开发中http强制跳转https](https://fangyuanxiaozhan.com/p/2021-01-25-24/)
+[解决Chrome开发中http强制跳转https](https://www.vizz.top/p/2021-01-25-24/)
 
-[Node.js爬虫获取漫威超级英雄电影海报](https://fangyuanxiaozhan.com/p/2021-01-25-23/)
+[Node.js爬虫获取漫威超级英雄电影海报](https://www.vizz.top/p/2021-01-25-23/)
 
-[InDesign转曲字体 导出PDF的技巧](https://fangyuanxiaozhan.com/p/2021-01-25-22/)
+[InDesign转曲字体 导出PDF的技巧](https://www.vizz.top/p/2021-01-25-22/)
 
-[Python写给前端的脚本！网站图片素材中文转英文](https://fangyuanxiaozhan.com/p/2020-01-25-21/)
+[Python写给前端的脚本！网站图片素材中文转英文](https://www.vizz.top/p/2020-01-25-21/)
 
-[B站黑白滤镜](https://fangyuanxiaozhan.com/p/2020-01-25-20/)
+[B站黑白滤镜](https://www.vizz.top/p/2020-01-25-20/)
 
-[简单三步, 搭建全平台私有同步网盘](https://fangyuanxiaozhan.com/p/2020-01-25-19/)
+[简单三步, 搭建全平台私有同步网盘](https://www.vizz.top/p/2020-01-25-19/)
 
-[让Css3动画变得有趣WOWjs](https://fangyuanxiaozhan.com/p/2020-01-25-18/)
+[让Css3动画变得有趣WOWjs](https://www.vizz.top/p/2020-01-25-18/)
 
-[193MB的 Office 2016 四合一精简珍藏版，支持 win7 win8 win8.1 win10 x86/x64 系统](https://fangyuanxiaozhan.com/p/2020-01-24-office2016/)
+[193MB的 Office 2016 四合一精简珍藏版，支持 win7 win8 win8.1 win10 x86/x64 系统](https://www.vizz.top/p/2020-01-24-office2016/)
 
-[使用Github Actions 动态更新Github主页](https://fangyuanxiaozhan.com/p/2020-01-23-15-github-actions-blog/)
+[使用Github Actions 动态更新Github主页](https://www.vizz.top/p/2020-01-23-15-github-actions-blog/)
 
-[《百度网盘闲时下载卡》别家公司996, 我百度凌晨1点刚上线，如何改进闲时下载卡？Make Baidu Great Again！](https://fangyuanxiaozhan.com/p/2020-01-21-13-baidupan/)
+[《百度网盘闲时下载卡》别家公司996, 我百度凌晨1点刚上线，如何改进闲时下载卡？Make Baidu Great Again！](https://www.vizz.top/p/2020-01-21-13-baidupan/)
 
-[从「我的代码要改变世界」到「代码也不是最重要滴」](https://fangyuanxiaozhan.com/p/2020-01-20-code/)
+[从「我的代码要改变世界」到「代码也不是最重要滴」](https://www.vizz.top/p/2020-01-20-code/)
 
-[用Github Actions运行Python脚本更新仓库博客到WordPress，手机写Markdown同步更新到Github和WordPress攻略](https://fangyuanxiaozhan.com/p/2020-01-19-18-00-wordpressxmlrpctools/)
+[用Github Actions运行Python脚本更新仓库博客到WordPress，手机写Markdown同步更新到Github和WordPress攻略](https://www.vizz.top/p/2020-01-19-18-00-wordpressxmlrpctools/)
 
-[Xbox 2020 series手柄体验实录（附自制Xbox体感射击技巧）](https://fangyuanxiaozhan.com/p/2020-01-19-08-00-xbox-2020-series/)
+[Xbox 2020 series手柄体验实录（附自制Xbox体感射击技巧）](https://www.vizz.top/p/2020-01-19-08-00-xbox-2020-series/)
 
-[建立个人独立博客有什么好处?](https://fangyuanxiaozhan.com/p/2020-01-18-blog/)
+[建立个人独立博客有什么好处?](https://www.vizz.top/p/2020-01-18-blog/)
 
-[zhaoolee的Github主页](https://fangyuanxiaozhan.com/p/2020-01-17-zhaoolee/)
+[zhaoolee的Github主页](https://www.vizz.top/p/2020-01-17-zhaoolee/)
 
 ---end---
 
