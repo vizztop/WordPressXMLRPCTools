@@ -28,7 +28,6 @@ getVideoBase64(url) {
         video.setAttribute('width', 400);
         video.setAttribute('height', 240);
         video.setAttribute('autoplay', 'autoplay');
-        video.pause();
         video.addEventListener('loadeddata', () => {
             // 视频时长video.duration;
             let canvas = document.createElement("canvas"),

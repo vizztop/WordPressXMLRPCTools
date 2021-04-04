@@ -205,7 +205,7 @@ def insert_index_info_in_readme():
     for md in md_list:
         (content, metadata) = read_md(md)
         title = metadata.get("title", "")
-        insert_info = insert_info + "[" + title +"](" + "https://"+domain_name + "/p/" + os.path.basename(md).split(".")[0] +"/" + ")\n\n"
+        insert_info = insert_info + "[" + title +"](" + "https://"+domain_name + "/archives/" + os.path.basename(md).split(".")[0] +"/" + ")\n\n"
     # 替换 ---start--- 到 ---end--- 之间的内容
 
     insert_info = "---start---\n## 目录(" + time.strftime('%Y年%m月%d日') + "更新)" +"\n" + insert_info + "---end---"
@@ -258,14 +258,14 @@ def main():
             terms_names_category = metadata.get("categories", domain_name)
             post_status = "publish"
             link = sha1_key.split(".")[0]
-            content = markdown.markdown(content + href_info("https://"+domain_name+"/p/"+link+"/"), extensions=['tables', 'fenced_code'])
+            content = markdown.markdown(content + href_info("https://"+domain_name+"/archives/"+link+"/"), extensions=['tables', 'fenced_code'])
             # 如果文章无id,则直接新建
-            if(("https://"+domain_name+"/p/"+link+"/" in link_id_dic.keys()) == False):
+            if(("https://"+domain_name+"/archives/"+link+"/" in link_id_dic.keys()) == False):
                 new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category)
             # 如果文章有id, 则更新文章
             else:
                 # 获取id
-                id = link_id_dic["https://"+domain_name+"/p/"+link+"/"]
+                id = link_id_dic["https://"+domain_name+"/archives/"+link+"/"]
                 edit_post(id, title, content, link, post_status, terms_names_post_tag, terms_names_category)
     # 4. 重建md_sha1_dic
     rebuild_md_sha1_dic(os.path.join(os.getcwd(), ".md_sha1"), os.path.join(os.getcwd(), "_posts"))
