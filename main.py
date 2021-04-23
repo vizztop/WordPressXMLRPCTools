@@ -84,31 +84,31 @@ def create_post_obj(title, content, link, post_status, terms_names_post_tag, ter
 def new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category):
 
     post_obj = create_post_obj(
-        title = link, 
-        content = content, 
-        link = link, 
-        post_status = post_status, 
-        terms_names_post_tag = terms_names_post_tag, 
+        title = link,
+        content = content,
+        link = link,
+        post_status = post_status,
+        terms_names_post_tag = terms_names_post_tag,
         terms_names_category = terms_names_category)
     # 先获取id
     id = wp.call(NewPost(post_obj))
     # 再通过EditPost更新信息
-    edit_post(id, title, 
-        content, 
-        link, 
-        post_status, 
-        terms_names_post_tag, 
+    edit_post(id, title,
+        content,
+        link,
+        post_status,
+        terms_names_post_tag,
         terms_names_category)
 
 
 # 更新文章
 def edit_post(id, title, content, link, post_status, terms_names_post_tag, terms_names_category):
     post_obj = create_post_obj(
-        title, 
-        content, 
-        link, 
-        post_status, 
-        terms_names_post_tag, 
+        title,
+        content,
+        link,
+        post_status,
+        terms_names_post_tag,
         terms_names_category)
     res = wp.call(EditPost(id, post_obj))
     print(res)
@@ -130,7 +130,7 @@ def get_md_list(dir_path):
     md_list = []
     dirs = os.listdir(dir_path)
     for i in dirs:
-        if os.path.splitext(i)[1] == ".md":   
+        if os.path.splitext(i)[1] == ".md":
             md_list.append(os.path.join(dir_path, i))
     print(md_list)
     return md_list
@@ -146,19 +146,19 @@ def get_sha1(filename):
 
 # 将字典写入文件
 def write_dic_info_to_file(dic_info, file):
-    dic_info_str = json.dumps(dic_info)   
-    file = open(file, 'w')  
-    file.write(dic_info_str)  
+    dic_info_str = json.dumps(dic_info)
+    file = open(file, 'w')
+    file.write(dic_info_str)
     file.close()
     return True
 
 # 将文件读取为字典格式
 def read_dic_from_file(file):
-    file_byte = open(file, 'r') 
+    file_byte = open(file, 'r')
     file_info = file_byte.read()
-    dic = json.loads(file_info)   
+    dic = json.loads(file_info)
     file_byte.close()
-    return dic 
+    return dic
 
 # 获取md_sha1_dic
 
@@ -205,7 +205,7 @@ def insert_index_info_in_readme():
     for md in md_list:
         (content, metadata) = read_md(md)
         title = metadata.get("title", "")
-        insert_info = insert_info + "[" + title +"](" + "https://"+domain_name + "/archives/" + os.path.basename(md).split(".")[0] +"/" + ")\n\n"
+        insert_info = insert_info + "[" + title +"](" + "https://"+domain_name + "/post/" + os.path.basename(md).split(".")[0] +"/" + ")\n\n"
     # 替换 ---start--- 到 ---end--- 之间的内容
 
     insert_info = "---start---\n## 目录(" + time.strftime('%Y年%m月%d日') + "更新)" +"\n" + insert_info + "---end---"
@@ -258,14 +258,14 @@ def main():
             terms_names_category = metadata.get("categories", domain_name)
             post_status = "publish"
             link = sha1_key.split(".")[0]
-            content = markdown.markdown(content + href_info("https://"+domain_name+"/archives/"+link+"/"), extensions=['tables', 'fenced_code'])
+            content = markdown.markdown(content + href_info("https://"+domain_name+"/post/"+link+"/"), extensions=['tables', 'fenced_code'])
             # 如果文章无id,则直接新建
-            if(("https://"+domain_name+"/archives/"+link+"/" in link_id_dic.keys()) == False):
+            if(("https://"+domain_name+"/post/"+link+"/" in link_id_dic.keys()) == False):
                 new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category)
             # 如果文章有id, 则更新文章
             else:
                 # 获取id
-                id = link_id_dic["https://"+domain_name+"/archives/"+link+"/"]
+                id = link_id_dic["https://"+domain_name+"/post/"+link+"/"]
                 edit_post(id, title, content, link, post_status, terms_names_post_tag, terms_names_category)
     # 4. 重建md_sha1_dic
     rebuild_md_sha1_dic(os.path.join(os.getcwd(), ".md_sha1"), os.path.join(os.getcwd(), "_posts"))
